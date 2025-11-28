@@ -3,7 +3,7 @@ export default function IntegratedFitness() {
 const [tab, setTab] = useState("meal"); 
 const [gender, setGender] = useState("female"); 
 const [allergies, setAllergies] = useState([]); 
-const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const backendUrl = process.env.REACT_APP_BACKEND_URL
 
 // --- MEAL PLANNER --- 
 const [mealInput, setMealInput] = useState(""); 
